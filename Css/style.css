@@ -19,7 +19,7 @@ body{
 .container{
     max-width: 1140px;
     margin: 0 auto;
-    border: 1px solid red ;
+    
 }
 
 /*-------------------------------------
@@ -57,13 +57,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 652px;
+    margin-bottom: 74px;
 }
 .section-area{
     text-align: center;
     margin: 0 auto;
     margin-top: 26px;
     width: 998px;
-    border: 1px solid red;
+    
 
 }
 .header-item img{
@@ -91,3 +92,85 @@ body{
     margin-top: 32px;
     margin-bottom: 44px;
 }
+
+/*-------------------------------------
+   About Section Css Start 
+-------------------------------------*/
+.about-area{
+    background-color: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
+    border-radius: 16px;
+}
+.section-title{
+    margin-bottom: 48px;
+}
+.section-title h1{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+.section-title p{
+    opacity: 70%;
+    font-size: 16px;
+    text-align: center;
+    color: #0D1321;
+
+}
+.about-contain{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.about-dis{
+    margin:  auto;
+}
+.about-dis h2{
+    font-size: 24px;
+    text-align: left;
+    color: rgba(13, 19, 33, 0.7);
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.about-dis p{
+    font-size: 16px;
+    text-align: left;
+    color: #0D1321;
+    margin-bottom: 32px;
+
+}
+.about-dis button{
+    border: 1px solid #0D1321;
+    opacity: 70%;
+    padding: 12px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.about-contain{
+    background:linear-gradient(to right,rgb(255, 255, 255),rgba(255, 255, 255, 0)) ;
+    padding: 48px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+
+}
+.contain-sub{
+    background:linear-gradient(to left,rgb(255, 255, 255),rgba(255, 255, 255, 0)) ;  
+}
+.about-contain img{
+    width: 275px;
+    height: 240px;
+}
+
+/*-------------------------------------
+   Css Start 
+-------------------------------------*/
+/*-------------------------------------
+   Css Start 
+-------------------------------------*/
+/*-------------------------------------
+   Css Start 
+-------------------------------------*/
+/*-------------------------------------
+   Css Start 
+-------------------------------------*/
