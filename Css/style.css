@@ -19,6 +19,7 @@ body{
 .container{
     max-width: 1140px;
     margin: 0 auto;
+    /* border: 2px solid red; */
     
 }
 
@@ -100,6 +101,7 @@ body{
     background-color: rgba(13, 19, 33, 0.02);
     padding: 80px 97px;
     border-radius: 16px;
+    margin-bottom: 88px;
 }
 .section-title{
     margin-bottom: 48px;
@@ -163,11 +165,59 @@ body{
 }
 
 /*-------------------------------------
-   Css Start 
+   Inspiration Css Start 
 -------------------------------------*/
+.ins-item{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    padding: 32px;
+    border-radius: 16px;
+    
+}
+.ins-inner{
+    margin-bottom:150px;
+}
+.ins-item iframe{
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px; 
+}
 /*-------------------------------------
-   Css Start 
+   Target Section Css Start 
 -------------------------------------*/
+.target-inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+   
+}
+.target-contain{
+    padding: 40px;
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+}
+.con-1{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.con-2{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.target-contain img{
+    width: 56px;
+    height: 56px;
+}
+.target-contain h1{
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.target-contain p{
+    margin-bottom: 24px;
+    
+}
+.target-contain a{
+    color: #0D1321;
+    background-color: transparent;
+   
+}
 /*-------------------------------------
    Css Start 
 -------------------------------------*/
