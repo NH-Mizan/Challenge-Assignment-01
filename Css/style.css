@@ -87,7 +87,12 @@ p{
 .header-item p{
     margin-top: 24px;
 }
-.header-item button{
+.primary-btn {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+.header-item .primary-btn a{
     font-size: 20px;
     text-align: center;
     font-weight: 600;
@@ -95,8 +100,15 @@ p{
     padding: 21px 24px;
     background-color: #0D1321;
     border-radius: 8px;
-    margin-top: 32px;
     margin-bottom: 44px;
+    text-decoration: none;
+   
+    
+}
+.sub a{
+    background: linear-gradient(to left, rgb(255, 0, 247) ,rgb(119, 0, 255));
+    
+  
 }
 
 /*-------------------------------------
@@ -119,14 +131,7 @@ p{
     color: #0D1321;
     margin-bottom: 24px;
 }
-/* .section-title p{
-    opacity: 70%;
-    font-size: 16px;
-    text-align: center;
-    line-height: 25px;
-    color: #0D1321;
-
-} */
+        
 .about-contain{
     display: flex;
     justify-content: space-between;
@@ -187,7 +192,7 @@ p{
     border-radius: 16px; 
 }
 /*-------------------------------------
-   Target Section Css Start 
+    Target Section Css Start 
 -------------------------------------*/
 .target-inner{
     display: grid;
@@ -223,7 +228,41 @@ p{
 .target-contain a{
     color: #0D1321;
     background-color: transparent;
+    font-weight: 700;
    
+}
+/*-------------------------------------
+    Next Target Section Css Start 
+-------------------------------------*/
+.next-sup-item{
+    display: flex;
+    margin: 40px;
+}
+.next-sup-inner img{
+    height:100px ;
+    
+}
+.node-img{
+  width: 110px;
+}
+.next-sup-inner{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin-bottom: 24px;
+
+}
+.sup-dis {
+    text-align: left;
+    margin-left: 24px;
+}
+.sup-dis p{
+    text-align: left;
+    margin: 8px 0 24px 0;
+}
+.sup-dis a{
+    font-weight: 700;
+    font-size: 16px;
+    color: #0D1321;
 }
 /*-------------------------------------
   Support Section Css Start 
@@ -240,6 +279,7 @@ p{
     border-radius: 16px;
     background-color: rgba(0, 0, 0, 0.435);
     background-blend-mode: overlay;
+    margin-top: 44px;
 
 }
 .support-inner h3{
@@ -300,3 +340,6 @@ p{
     font-size: 20px;
     font-weight: 600px;
 }
+/*-------------------------------------
+    ============= End=============
+-------------------------------------*/
