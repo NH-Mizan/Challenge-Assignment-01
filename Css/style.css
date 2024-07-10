@@ -205,6 +205,7 @@ p{
     padding: 40px;
     background-color: rgba(255, 76, 30, 0.05);
     border-radius: 16px;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.06);
 }
 .con-1{
     background-color: rgba(0, 76, 232, 0.05);
